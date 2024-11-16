@@ -1,0 +1,108 @@
+body {
+    background-image: url(/Img/sfondo.jpg);
+    margin-top: 150px;
+    font-family: sans-serif;
+    
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 30px;
+    height: 600px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main p {
+    margin-bottom: 40px;
+}
+
+header nav ul li,
+header nav ul h3 {
+    display: inline;
+    line-height: 70px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    margin: 15px;
+    color: black;
+}
+
+nav {
+    height: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+h3 {
+    margin: 0px 370px 0px 0px;
+    color: mediumblue;
+}
+
+
+.shopping {
+    width: 240px;
+}
+
+h1 {
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.bottone:link,
+.bottone:visited {
+    color: white;
+    background-color: rgb(200, 174, 24);
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.bottone:hover,
+.bottone:active {
+    background-color: gold;
+    transition: background-color 0,30 ease-in-out;
+
+}
+
+.aquista:link,
+.aquista:visited {
+    color: white;
+    background-color: rgb(200, 174, 24);
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-left: 0px;
+
+}
+
+.aquista:hover,
+.aquista:active {
+    background-color: gold;
+    transition: background-color 0,30 ease-in-out;
+
+}
+
+figure {
+    margin: 0px;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.445);
+}
